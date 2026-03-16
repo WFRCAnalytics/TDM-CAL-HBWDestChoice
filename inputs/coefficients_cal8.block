@@ -1,0 +1,110 @@
+;destination choice model coefficients
+;all coefficients are stratified by market segment
+;these coefficients are from run 63, set 2
+
+; intra-zonal constants
+intra_0veh_lo = 2.866
+intra_0veh_hi = 2.866
+intra_1veh_lo = 1.696
+intra_1veh_hi = 1.264
+intra_2veh_lo = 1.969
+intra_2veh_hi = 2.193
+
+; intra-district constants
+intradist_0veh_lo = 0
+intradist_0veh_hi = 0
+intradist_1veh_lo = 0
+intradist_1veh_hi = 0
+intradist_2veh_lo = 0
+intradist_2veh_hi = 0
+
+; distance calibration constants
+distcal_0veh_lo =0.0295
+distcal_0veh_hi =0.004
+distcal_1veh_lo =0.016
+distcal_1veh_hi =0.01375
+distcal_2veh_lo =0.0065
+distcal_2veh_hi =0.01075
+
+;mode choice logsums
+logsum_0veh_lo = 0.311
+logsum_0veh_hi = 0.311
+logsum_1veh_lo = 0.212
+logsum_1veh_hi = 0.212
+logsum_2veh_lo = 0.399
+logsum_2veh_hi = 0.428
+
+;highway network distance
+hwy_dist_0veh_lo = -0.089
+hwy_dist_0veh_hi = -0.089
+hwy_dist_1veh_lo = -0.089
+hwy_dist_1veh_hi = -0.089
+hwy_dist_2veh_lo = -0.089
+hwy_dist_2veh_hi = -0.089
+
+;peak highway times
+hwy_time_0veh_lo = 0
+hwy_time_0veh_hi = 0
+hwy_time_1veh_lo = 0
+hwy_time_1veh_hi = 0
+hwy_time_2veh_lo = 0
+hwy_time_2veh_hi = 0
+
+;best walk-to-transit generalized cost
+transit_cost_0veh_lo = 0
+transit_cost_0veh_hi = 0
+transit_cost_1veh_lo = 0
+transit_cost_1veh_hi = 0
+transit_cost_2veh_lo = 0
+transit_cost_2veh_hi = 0
+
+;retail to total employment ratio
+retail_ratio_0veh_lo =  0.458
+retail_ratio_0veh_hi =  0.458
+retail_ratio_1veh_lo =  0
+retail_ratio_1veh_hi = -0.524
+retail_ratio_2veh_lo =  0
+retail_ratio_2veh_hi = -0.718
+
+;industrial to total employment ratio
+industrial_ratio_0veh_lo =  0
+industrial_ratio_0veh_hi =  0
+industrial_ratio_1veh_lo = -1.269
+industrial_ratio_1veh_hi = -0.921
+industrial_ratio_2veh_lo =  0
+industrial_ratio_2veh_hi = -0.459
+
+;other to total employment ratio
+other_ratio_0veh_lo = 0
+other_ratio_0veh_hi = 0
+other_ratio_1veh_lo = 0
+other_ratio_1veh_hi = 0
+other_ratio_2veh_lo = 0
+other_ratio_2veh_hi = 0
+
+; note employment totals should be exp(coefficient)
+; thus, exp(0) -> 1 means that the variable is not used
+;retail employment
+retail_emp_0veh_lo = 1
+retail_emp_0veh_hi = 1
+retail_emp_1veh_lo = 1
+retail_emp_1veh_hi = 1
+retail_emp_2veh_lo = 1
+retail_emp_2veh_hi = 1
+
+;industrial employment
+industrial_emp_0veh_lo = 1
+industrial_emp_0veh_hi = 1
+industrial_emp_1veh_lo = 1
+industrial_emp_1veh_hi = 1
+industrial_emp_2veh_lo = 1
+industrial_emp_2veh_hi = 1
+
+;other employment
+other_emp_0veh_lo = 1
+other_emp_0veh_hi = 1
+other_emp_1veh_lo = 1
+other_emp_1veh_hi = 1
+other_emp_2veh_lo = 1
+other_emp_2veh_hi = 1
+
