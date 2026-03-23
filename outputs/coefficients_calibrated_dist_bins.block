@@ -1,5 +1,5 @@
 ; Calibrated HBW Destination Choice Coefficients (Distance Bins)
-; Generated on 2026-03-18 15:39:08
+; Generated on 2026-03-23 15:22:25
 
 ; --- 0veh_lo ---
 intra_0veh_lo = 2.866000
@@ -13,10 +13,10 @@ other_ratio_0veh_lo = 0.000000
 retail_emp_0veh_lo = 1.000000
 industrial_emp_0veh_lo = 1.000000
 other_emp_0veh_lo = 1.000000
-bin_0_5_0veh_lo = 0.654829
-bin_5_10_0veh_lo = 0.221132
-bin_10_20_0veh_lo = -1.570629
-bin_20_plus_0veh_lo = -5.413851
+bin_0_5_0veh_lo = 0.727467
+bin_5_10_0veh_lo = 0.215623
+bin_10_20_0veh_lo = -1.679320
+bin_20_plus_0veh_lo = -5.621812
 
 ; --- 0veh_hi ---
 intra_0veh_hi = 2.866000
@@ -30,10 +30,10 @@ other_ratio_0veh_hi = 0.000000
 retail_emp_0veh_hi = 1.000000
 industrial_emp_0veh_hi = 1.000000
 other_emp_0veh_hi = 1.000000
-bin_0_5_0veh_hi = 0.862158
-bin_5_10_0veh_hi = 0.222730
-bin_10_20_0veh_hi = -1.081346
-bin_20_plus_0veh_hi = -5.736178
+bin_0_5_0veh_hi = 0.803398
+bin_5_10_0veh_hi = 0.185248
+bin_10_20_0veh_hi = -0.957187
+bin_20_plus_0veh_hi = -5.670378
 
 ; --- 1veh_lo ---
 intra_1veh_lo = 1.696000
@@ -47,10 +47,10 @@ other_ratio_1veh_lo = 0.000000
 retail_emp_1veh_lo = 1.000000
 industrial_emp_1veh_lo = 1.000000
 other_emp_1veh_lo = 1.000000
-bin_0_5_1veh_lo = 1.399584
-bin_5_10_1veh_lo = 0.333365
-bin_10_20_1veh_lo = -0.249304
-bin_20_plus_1veh_lo = -2.480418
+bin_0_5_1veh_lo = 1.526813
+bin_5_10_1veh_lo = 0.344729
+bin_10_20_1veh_lo = -0.338823
+bin_20_plus_1veh_lo = -2.560785
 
 ; --- 1veh_hi ---
 intra_1veh_hi = 1.264000
@@ -64,10 +64,10 @@ other_ratio_1veh_hi = 0.000000
 retail_emp_1veh_hi = 1.000000
 industrial_emp_1veh_hi = 1.000000
 other_emp_1veh_hi = 1.000000
-bin_0_5_1veh_hi = 1.538234
-bin_5_10_1veh_hi = 0.917138
-bin_10_20_1veh_hi = -0.035432
-bin_20_plus_1veh_hi = -3.210064
+bin_0_5_1veh_hi = 1.471602
+bin_5_10_1veh_hi = 0.922164
+bin_10_20_1veh_hi = -0.001862
+bin_20_plus_1veh_hi = -3.206758
 
 ; --- 2veh_lo ---
 intra_2veh_lo = 1.969000
@@ -81,10 +81,10 @@ other_ratio_2veh_lo = 0.000000
 retail_emp_2veh_lo = 1.000000
 industrial_emp_2veh_lo = 1.000000
 other_emp_2veh_lo = 1.000000
-bin_0_5_2veh_lo = 1.032024
-bin_5_10_2veh_lo = 0.249493
-bin_10_20_2veh_lo = -0.918710
-bin_20_plus_2veh_lo = -2.642988
+bin_0_5_2veh_lo = 1.158591
+bin_5_10_2veh_lo = 0.265947
+bin_10_20_2veh_lo = -1.006373
+bin_20_plus_2veh_lo = -2.807930
 
 ; --- 2veh_hi ---
 intra_2veh_hi = 2.193000
@@ -98,8 +98,8 @@ other_ratio_2veh_hi = 0.000000
 retail_emp_2veh_hi = 1.000000
 industrial_emp_2veh_hi = 1.000000
 other_emp_2veh_hi = 1.000000
-bin_0_5_2veh_hi = 1.259522
-bin_5_10_2veh_hi = 0.741158
-bin_10_20_2veh_hi = 0.169612
-bin_20_plus_2veh_hi = -2.134993
+bin_0_5_2veh_hi = 1.242963
+bin_5_10_2veh_hi = 0.774615
+bin_10_20_2veh_hi = 0.193064
+bin_20_plus_2veh_hi = -2.154921
 

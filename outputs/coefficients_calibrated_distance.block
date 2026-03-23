@@ -1,10 +1,10 @@
 ; Calibrated HBW Destination Choice Coefficients
-; Generated on 2026-03-18 12:16:53
+; Generated on 2026-03-23 15:01:56
 
 ; --- 0veh_lo ---
 intra_0veh_lo = 2.866000
 intradist_0veh_lo = 0.000000
-distcal_0veh_lo = 0.086861
+distcal_0veh_lo = 0.102887
 logsum_0veh_lo = 0.311000
 hwy_dist_0veh_lo = -0.089000
 hwy_time_0veh_lo = 0.000000
@@ -19,7 +19,7 @@ other_emp_0veh_lo = 1.000000
 ; --- 0veh_hi ---
 intra_0veh_hi = 2.866000
 intradist_0veh_hi = 0.000000
-distcal_0veh_hi = 0.094448
+distcal_0veh_hi = 0.079243
 logsum_0veh_hi = 0.311000
 hwy_dist_0veh_hi = -0.089000
 hwy_time_0veh_hi = 0.000000
@@ -34,7 +34,7 @@ other_emp_0veh_hi = 1.000000
 ; --- 1veh_lo ---
 intra_1veh_lo = 1.696000
 intradist_1veh_lo = 0.000000
-distcal_1veh_lo = 0.016038
+distcal_1veh_lo = 0.024514
 logsum_1veh_lo = 0.212000
 hwy_dist_1veh_lo = -0.089000
 hwy_time_1veh_lo = 0.000000
@@ -49,7 +49,7 @@ other_emp_1veh_lo = 1.000000
 ; --- 1veh_hi ---
 intra_1veh_hi = 1.264000
 intradist_1veh_hi = 0.000000
-distcal_1veh_hi = 0.038827
+distcal_1veh_hi = 0.035168
 logsum_1veh_hi = 0.212000
 hwy_dist_1veh_hi = -0.089000
 hwy_time_1veh_hi = 0.000000
@@ -64,7 +64,7 @@ other_emp_1veh_hi = 1.000000
 ; --- 2veh_lo ---
 intra_2veh_lo = 1.969000
 intradist_2veh_lo = 0.000000
-distcal_2veh_lo = 0.036351
+distcal_2veh_lo = 0.051149
 logsum_2veh_lo = 0.399000
 hwy_dist_2veh_lo = -0.089000
 hwy_time_2veh_lo = 0.000000
@@ -79,7 +79,7 @@ other_emp_2veh_lo = 1.000000
 ; --- 2veh_hi ---
 intra_2veh_hi = 2.193000
 intradist_2veh_hi = 0.000000
-distcal_2veh_hi = 0.003962
+distcal_2veh_hi = 0.003813
 logsum_2veh_hi = 0.428000
 hwy_dist_2veh_hi = -0.089000
 hwy_time_2veh_hi = 0.000000
