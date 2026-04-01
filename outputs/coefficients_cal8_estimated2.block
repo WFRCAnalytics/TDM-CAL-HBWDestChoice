@@ -1,0 +1,115 @@
+;destination choice model coefficients
+;all coefficients are stratified by market segment
+;these coefficients are newly estimated
+
+; intra-zonal constants (b_iz)
+intra_0veh_lo =  0.2370
+intra_0veh_hi =  0.5530
+intra_1veh_lo =  0.5363
+intra_1veh_hi =  0.2833
+intra_2veh_lo =  1.3748
+intra_2veh_hi =  2.3672
+
+; intra-district constants (not estimated in this model)
+intradist_0veh_lo = 0
+intradist_0veh_hi = 0
+intradist_1veh_lo = 0
+intradist_1veh_hi = 0
+intradist_2veh_lo = 0
+intradist_2veh_hi = 0
+
+; distance calibration constants (set to 0 since distance is estimated directly)
+distcal_0veh_lo = 0
+distcal_0veh_hi = 0
+distcal_1veh_lo = 0
+distcal_1veh_hi = 0
+distcal_2veh_lo = 0
+distcal_2veh_hi = 0
+
+;mode choice logsums (b_logsum)
+logsum_0veh_lo = 0.3277
+logsum_0veh_hi = 0.1437
+logsum_1veh_lo = 0.5495
+logsum_1veh_hi = 0.7702
+logsum_2veh_lo = 0.5236
+logsum_2veh_hi = 1.0057
+
+;highway network distance (b_dist1)
+hwy_dist_0veh_lo = -0.2240
+hwy_dist_0veh_hi = -0.1197
+hwy_dist_1veh_lo = -0.0597
+hwy_dist_1veh_hi = -0.0578
+hwy_dist_2veh_lo = -0.0608
+hwy_dist_2veh_hi = -0.0469
+
+;peak highway times (not estimated)
+hwy_time_0veh_lo = 0
+hwy_time_0veh_hi = 0
+hwy_time_1veh_lo = 0
+hwy_time_1veh_hi = 0
+hwy_time_2veh_lo = 0
+hwy_time_2veh_hi = 0
+
+;best walk-to-transit generalized cost (not estimated)
+transit_cost_0veh_lo = 0
+transit_cost_0veh_hi = 0
+transit_cost_1veh_lo = 0
+transit_cost_1veh_hi = 0
+transit_cost_2veh_lo = 0
+transit_cost_2veh_hi = 0
+
+;retail to total employment ratio (b_retail)
+retail_ratio_0veh_lo =  0.3820
+retail_ratio_0veh_hi = -0.5601
+retail_ratio_1veh_lo = -1.7912
+retail_ratio_1veh_hi = -2.4756
+retail_ratio_2veh_lo = -0.9559
+retail_ratio_2veh_hi = -1.6721
+
+;industrial to total employment ratio (b_ind)
+industrial_ratio_0veh_lo = -0.0827
+industrial_ratio_0veh_hi =  0.0600
+industrial_ratio_1veh_lo = -1.3676
+industrial_ratio_1veh_hi = -0.6478
+industrial_ratio_2veh_lo = -0.8826
+industrial_ratio_2veh_hi = -0.3224
+
+;other to total employment ratio (baseline)
+other_ratio_0veh_lo = 0
+other_ratio_0veh_hi = 0
+other_ratio_1veh_lo = 0
+other_ratio_1veh_hi = 0
+other_ratio_2veh_lo = 0
+other_ratio_2veh_hi = 0
+
+; note employment totals should be exp(coefficient)
+; thus, exp(0) -> 1 means that the variable is not used
+;retail employment
+retail_emp_0veh_lo = 1
+retail_emp_0veh_hi = 1
+retail_emp_1veh_lo = 1
+retail_emp_1veh_hi = 1
+retail_emp_2veh_lo = 1
+retail_emp_2veh_hi = 1
+
+;industrial employment
+industrial_emp_0veh_lo = 1
+industrial_emp_0veh_hi = 1
+industrial_emp_1veh_lo = 1
+industrial_emp_1veh_hi = 1
+industrial_emp_2veh_lo = 1
+industrial_emp_2veh_hi = 1
+
+;other employment
+other_emp_0veh_lo = 1
+other_emp_0veh_hi = 1
+other_emp_1veh_lo = 1
+other_emp_1veh_hi = 1
+other_emp_2veh_lo = 1
+other_emp_2veh_hi = 1
+
+;global model parameters
+short_trip_factor =  -0.0098
+beta_dist2 = 0.00075
+beta_dist3 = -0.000002
+beta_emp = 1

@@ -1,0 +1,93 @@
+; Calibrated HBW Destination Choice Coefficients
+; Generated on 2026-03-27 12:11:12
+
+; --- 0veh_lo ---
+intra_0veh_lo = 0.136100
+intradist_0veh_lo = 0.000000
+distcal_0veh_lo = 0.043113
+logsum_0veh_lo = 0.202100
+hwy_dist_0veh_lo = -0.159200
+hwy_time_0veh_lo = 0.000000
+transit_cost_0veh_lo = 0.000000
+retail_ratio_0veh_lo = 1.631200
+industrial_ratio_0veh_lo = 0.842400
+other_ratio_0veh_lo = 0.000000
+retail_emp_0veh_lo = 1.000000
+industrial_emp_0veh_lo = 1.000000
+other_emp_0veh_lo = 2.000000
+
+; --- 0veh_hi ---
+intra_0veh_hi = -2.238300
+intradist_0veh_hi = 0.000000
+distcal_0veh_hi = -0.019167
+logsum_0veh_hi = -0.013900
+hwy_dist_0veh_hi = -0.253500
+hwy_time_0veh_hi = 0.000000
+transit_cost_0veh_hi = 0.000000
+retail_ratio_0veh_hi = -4.321800
+industrial_ratio_0veh_hi = 0.496900
+other_ratio_0veh_hi = 0.000000
+retail_emp_0veh_hi = 1.000000
+industrial_emp_0veh_hi = 1.000000
+other_emp_0veh_hi = 1.000000
+
+; --- 1veh_lo ---
+intra_1veh_lo = 1.054300
+intradist_1veh_lo = 1.000000
+distcal_1veh_lo = -0.003995
+logsum_1veh_lo = -0.676100
+hwy_dist_1veh_lo = -0.216300
+hwy_time_1veh_lo = 0.000000
+transit_cost_1veh_lo = 0.000000
+retail_ratio_1veh_lo = -1.922200
+industrial_ratio_1veh_lo = 0.004800
+other_ratio_1veh_lo = 0.000000
+retail_emp_1veh_lo = 1.000000
+industrial_emp_1veh_lo = 1.000000
+other_emp_1veh_lo = 1.500000
+
+; --- 1veh_hi ---
+intra_1veh_hi = 1.380900
+intradist_1veh_hi = 0.000000
+distcal_1veh_hi = 0.014276
+logsum_1veh_hi = -0.676000
+hwy_dist_1veh_hi = -0.174600
+hwy_time_1veh_hi = 0.000000
+transit_cost_1veh_hi = 0.000000
+retail_ratio_1veh_hi = -1.235500
+industrial_ratio_1veh_hi = 0.098500
+other_ratio_1veh_hi = 0.000000
+retail_emp_1veh_hi = 1.000000
+industrial_emp_1veh_hi = 1.000000
+other_emp_1veh_hi = 1.000000
+
+; --- 2veh_lo ---
+intra_2veh_lo = 2.124700
+intradist_2veh_lo = 1.000000
+distcal_2veh_lo = -0.002972
+logsum_2veh_lo = 0.079600
+hwy_dist_2veh_lo = -0.119700
+hwy_time_2veh_lo = 0.000000
+transit_cost_2veh_lo = 0.000000
+retail_ratio_2veh_lo = -0.238000
+industrial_ratio_2veh_lo = 0.632600
+other_ratio_2veh_lo = 0.000000
+retail_emp_2veh_lo = 1.000000
+industrial_emp_2veh_lo = 1.000000
+other_emp_2veh_lo = 1.500000
+
+; --- 2veh_hi ---
+intra_2veh_hi = 0.968500
+intradist_2veh_hi = 0.000000
+distcal_2veh_hi = 0.008908
+logsum_2veh_hi = -0.571300
+hwy_dist_2veh_hi = -0.161300
+hwy_time_2veh_hi = 0.000000
+transit_cost_2veh_hi = 0.000000
+retail_ratio_2veh_hi = -0.986300
+industrial_ratio_2veh_hi = 0.237400
+other_ratio_2veh_hi = 0.000000
+retail_emp_2veh_hi = 1.000000
+industrial_emp_2veh_hi = 1.000000
+other_emp_2veh_hi = 1.000000
+
