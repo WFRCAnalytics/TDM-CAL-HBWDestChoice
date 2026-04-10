@@ -1,0 +1,14 @@
+
+;destination choice model coefficients
+;all coefficients are stratified by market segment
+;these coefficients are newly estimated
+
+b_dist_v0 =  0
+b_dist_v1 =  1.996296 
+b_dist_v2 =  1.968287 
+b_ret_L =  0
+b_ret_H = -0.052676 
+b_ind_L =  0.158804 
+b_ind_H =  0.184105 
+b_off_L =  0.414622 
+b_off_H =  0.547637 
